@@ -18,7 +18,7 @@ gsap.to("#page3 h1",{
         scroller:"body",
         start:"top 0%",
         end :"top -100%",
-        scrub:2,
+        scrub:1,
         pin:true,
     }
 })
@@ -33,13 +33,13 @@ gsap.fromTo("#scrollVerticallyDown",
         trigger: '.scrollImageVertically',
         start: "top bottom", 
         end: "bottom top", 
-        scrub: true
+        scrub: 1
       } 
     }
 );
 
 gsap.fromTo("#scrollVerticallyUp", 
-    { y: '250vh' }, 
+    { y: '230vh' }, 
     { 
       y: '-200vh', 
       ease: "none",
@@ -47,7 +47,7 @@ gsap.fromTo("#scrollVerticallyUp",
         trigger: '.scrollImageVertically',
         start: "top bottom", 
         end: "bottom top", 
-        scrub: true
+        scrub: 1
       } 
     }
 );

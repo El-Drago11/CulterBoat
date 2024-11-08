@@ -16,8 +16,8 @@ body{
     padding: 10px;
 }
 .menu-icon {
-    font-size: 40px !important;  /* Bigger size */
-    color: white !important;     /* White color */
+    font-size: 40px !important; 
+    color: white !important; 
     position: fixed;
     right: 10px;
     top: 10px;
@@ -80,3 +80,4 @@ body{
     height: 70vh;
     border-radius: 10px;
 }
+
