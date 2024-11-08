@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    overflow-x: hidden;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.90) 14.98%, rgba(82, 72, 72, 0.90) 47.38%, rgba(0, 0, 0, 0.90) 86.99%);
+    cursor: crosshair;
+    padding: 10px;
+}
+.menu-icon {
+    font-size: 40px !important;  /* Bigger size */
+    color: white !important;     /* White color */
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+#cursor {
+    height: 30px;
+    width: 30px;
+    padding: 25px;
+    border-radius: 50%;
+    border: 2px solid blue;
+    position: fixed;
+    z-index: 99999;
+    box-shadow: 0px 0px 10px white;
+}
+
+#page3{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+#page3 h1{
+    color: white;
+    word-spacing: 2vw;
+    text-transform: uppercase;
+    text-wrap: nowrap;
+    position: absolute;
+    left: 50%;
+    z-index: 999;
+    font-family: Bellota Text;
+    font-size: 185.82px;
+    font-weight: 400;
+    line-height: 233.76px;
+    letter-spacing: 0.14em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.scrollImageVertically{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+}
+
+.scrollDivCommon{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    color: aliceblue;
+    gap: 100px;
+}
+
+.imageHomeDiv>img{
+    width: 25vw;
+    height: 70vh;
+    border-radius: 10px;
+}
