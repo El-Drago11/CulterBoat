@@ -15,14 +15,8 @@ body{
     cursor: crosshair;
     padding: 10px;
 }
-.menu-icon {
-    font-size: 40px !important; 
-    color: white !important; 
-    position: fixed;
-    right: 10px;
-    top: 10px;
-}
 
+/* Cursor CSS */
 #cursor {
     height: 30px;
     width: 30px;
@@ -30,17 +24,88 @@ body{
     border-radius: 50%;
     border: 2px solid blue;
     position: fixed;
-    z-index: 99999;
+    z-index: 999;
     box-shadow: 0px 0px 10px white;
+    background-color: transparent;
 }
 
-#page3{
+/* Navbar CSS  start*/
+
+#overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+/* Navbar CSS */
+
+body::-webkit-scrollbar {
+    display: none;
+     scrollbar-width: none;
+    -ms-overflow-style: none; 
+}
+
+
+#Navbar {
+    position: relative;
+    max-height: 100vh !important;
+    z-index: 99999;
+}
+
+#Navbar ul {
+    list-style-type: none; /* Removes bullet points */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+
+
+#Navbar ul li{
+    color: #827d7dc9;
+    font-family: Bellota Text;
+    font-size: 10lvw;
+    font-weight: 400;
+    line-height: 25vh;
+    letter-spacing: -0.08em;
+    text-align: center;
+    text-underline-position: from-font;
+    z-index: 99999 !important;
+    will-change: color !important;
+}
+
+#Navbar ul li:hover{
+    color: white !important;
+}
+
+#menuIcon:hover{
+    cursor: pointer;
+}
+
+.d-none{
+    display: none !important;
+}
+
+/* Menu Icon css */
+.menu-icon {
+    font-size: 40px !important; 
+    color: white !important; 
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    z-index: 999999;
+}
+
+.menu-icon:hover{
+    cursor: pointer;
+}
+
+/* Landing Page Css */
+#LandingPage{
     height: 100%;
     width: 100%;
     display: flex;
     align-items: center;
 }
-#page3 h1{
+#LandingPage h1{
     color: white;
     word-spacing: 2vw;
     text-transform: uppercase;
